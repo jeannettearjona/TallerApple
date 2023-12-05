@@ -18,6 +18,7 @@
 		D62BC8DA2B1FDD1C00A9BAED /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */; };
 		D62BC8DC2B1FDD9A00A9BAED /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DB2B1FDD9A00A9BAED /* ItemViewModel.swift */; };
 		D62BC8DE2B1FE02100A9BAED /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */; };
+		D62BC8E02B1FE4B300A9BAED /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DF2B1FE4B300A9BAED /* View2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		D62BC8DB2B1FDD9A00A9BAED /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		D62BC8DF2B1FE4B300A9BAED /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				D62BC8AD2B1FBDE700A9BAED /* TallerAppleApp.swift */,
+				D62BC8DF2B1FE4B300A9BAED /* View2.swift */,
 				D62BC8AF2B1FBDE700A9BAED /* ContentView.swift */,
 				D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */,
 				D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */,
@@ -273,6 +276,7 @@
 				D62BC8B02B1FBDE700A9BAED /* ContentView.swift in Sources */,
 				D62BC8D82B1FD7BB00A9BAED /* ItemView.swift in Sources */,
 				D62BC8DA2B1FDD1C00A9BAED /* ItemModel.swift in Sources */,
+				D62BC8E02B1FE4B300A9BAED /* View2.swift in Sources */,
 				D62BC8DC2B1FDD9A00A9BAED /* ItemViewModel.swift in Sources */,
 				D62BC8AE2B1FBDE700A9BAED /* TallerAppleApp.swift in Sources */,
 			);

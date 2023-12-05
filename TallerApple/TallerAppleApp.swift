@@ -11,7 +11,20 @@ import SwiftUI
 struct TallerAppleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            TabView{
+                ContentView()
+                //.environmentObject(cartVM)
+                .tabItem{
+                    Image(systemName: "house.fill")
+                }
+                View2()
+                //.environmentObject(cartVM)
+                .tabItem{
+                    Image(systemName: "star.fill")
+                }
+
+            }
         }
     }
 }
