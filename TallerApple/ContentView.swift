@@ -59,7 +59,6 @@ struct ContentView: View {
                 }//VStack
                 .padding()
             }//ScrollView
-            .navigationTitle("Un titulo")
         }//NavigationView
     }
 }

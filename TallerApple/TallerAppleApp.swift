@@ -21,7 +21,7 @@ struct TallerAppleApp: App {
                 View2()
                 //.environmentObject(cartVM)
                 .tabItem{
-                    Image(systemName: "star.fill")
+                    Image(systemName: "person.fill")
                 }
 
             }
