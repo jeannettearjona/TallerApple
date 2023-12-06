@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var itemVM = ItemViewModel()
+    @StateObject var movieVM = MovieViewModel()
 
     var body: some View {
         NavigationView {
@@ -48,9 +48,9 @@ struct ContentView: View {
                              Image("default")
                              .resizable()
                              .frame(width: 100, height: 100)*/
-                            ForEach(itemVM.arrItems) { item in
-                                NavigationLink(destination: ItemDetailView(item: item),
-                                               label: { ItemView(item: item)})
+                            ForEach(movieVM.arrMovies) { item in
+                                NavigationLink(destination: MovieDetailView(movie: item),
+                                               label: { MovieItemView(movie: item)})
                             }
                         }//HStack
                         .padding()

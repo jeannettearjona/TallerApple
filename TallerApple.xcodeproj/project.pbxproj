@@ -14,10 +14,10 @@
 		D62BC8BF2B1FBDE900A9BAED /* TallerAppleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8BE2B1FBDE900A9BAED /* TallerAppleTests.swift */; };
 		D62BC8C92B1FBDE900A9BAED /* TallerAppleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8C82B1FBDE900A9BAED /* TallerAppleUITests.swift */; };
 		D62BC8CB2B1FBDE900A9BAED /* TallerAppleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8CA2B1FBDE900A9BAED /* TallerAppleUITestsLaunchTests.swift */; };
-		D62BC8D82B1FD7BB00A9BAED /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8D72B1FD7BB00A9BAED /* ItemView.swift */; };
-		D62BC8DA2B1FDD1C00A9BAED /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */; };
-		D62BC8DC2B1FDD9A00A9BAED /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DB2B1FDD9A00A9BAED /* ItemViewModel.swift */; };
-		D62BC8DE2B1FE02100A9BAED /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */; };
+		D62BC8D82B1FD7BB00A9BAED /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8D72B1FD7BB00A9BAED /* MovieItemView.swift */; };
+		D62BC8DA2B1FDD1C00A9BAED /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8D92B1FDD1C00A9BAED /* MovieModel.swift */; };
+		D62BC8DC2B1FDD9A00A9BAED /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DB2B1FDD9A00A9BAED /* MovieViewModel.swift */; };
+		D62BC8DE2B1FE02100A9BAED /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DD2B1FE02100A9BAED /* MovieDetailView.swift */; };
 		D62BC8E02B1FE4B300A9BAED /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62BC8DF2B1FE4B300A9BAED /* View2.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +49,10 @@
 		D62BC8C42B1FBDE900A9BAED /* TallerAppleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallerAppleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62BC8C82B1FBDE900A9BAED /* TallerAppleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallerAppleUITests.swift; sourceTree = "<group>"; };
 		D62BC8CA2B1FBDE900A9BAED /* TallerAppleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallerAppleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D62BC8D72B1FD7BB00A9BAED /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
-		D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
-		D62BC8DB2B1FDD9A00A9BAED /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
-		D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		D62BC8D72B1FD7BB00A9BAED /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
+		D62BC8D92B1FDD1C00A9BAED /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		D62BC8DB2B1FDD9A00A9BAED /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		D62BC8DD2B1FE02100A9BAED /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		D62BC8DF2B1FE4B300A9BAED /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,10 +107,10 @@
 				D62BC8AD2B1FBDE700A9BAED /* TallerAppleApp.swift */,
 				D62BC8DF2B1FE4B300A9BAED /* View2.swift */,
 				D62BC8AF2B1FBDE700A9BAED /* ContentView.swift */,
-				D62BC8DD2B1FE02100A9BAED /* ItemDetailView.swift */,
-				D62BC8D92B1FDD1C00A9BAED /* ItemModel.swift */,
-				D62BC8DB2B1FDD9A00A9BAED /* ItemViewModel.swift */,
-				D62BC8D72B1FD7BB00A9BAED /* ItemView.swift */,
+				D62BC8DD2B1FE02100A9BAED /* MovieDetailView.swift */,
+				D62BC8D92B1FDD1C00A9BAED /* MovieModel.swift */,
+				D62BC8DB2B1FDD9A00A9BAED /* MovieViewModel.swift */,
+				D62BC8D72B1FD7BB00A9BAED /* MovieItemView.swift */,
 				D62BC8B12B1FBDE800A9BAED /* Assets.xcassets */,
 				D62BC8B32B1FBDE800A9BAED /* Preview Content */,
 			);
@@ -272,12 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D62BC8DE2B1FE02100A9BAED /* ItemDetailView.swift in Sources */,
+				D62BC8DE2B1FE02100A9BAED /* MovieDetailView.swift in Sources */,
 				D62BC8B02B1FBDE700A9BAED /* ContentView.swift in Sources */,
-				D62BC8D82B1FD7BB00A9BAED /* ItemView.swift in Sources */,
-				D62BC8DA2B1FDD1C00A9BAED /* ItemModel.swift in Sources */,
+				D62BC8D82B1FD7BB00A9BAED /* MovieItemView.swift in Sources */,
+				D62BC8DA2B1FDD1C00A9BAED /* MovieModel.swift in Sources */,
 				D62BC8E02B1FE4B300A9BAED /* View2.swift in Sources */,
-				D62BC8DC2B1FDD9A00A9BAED /* ItemViewModel.swift in Sources */,
+				D62BC8DC2B1FDD9A00A9BAED /* MovieViewModel.swift in Sources */,
 				D62BC8AE2B1FBDE700A9BAED /* TallerAppleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

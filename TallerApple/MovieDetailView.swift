@@ -7,14 +7,13 @@
 
 import SwiftUI
 
-struct ItemDetailView: View {
-    let item : ItemModel
+struct MovieDetailView: View {
+    let movie : MovieModel
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         VStack{
 
-            Image(item.nombreImagen)
+            Image(movie.nombreImagen ?? "")
                 .resizable()
                 .scaledToFit()
                 .frame(width:250)
@@ -22,18 +21,18 @@ struct ItemDetailView: View {
                 .shadow(radius: 7)
                 .offset(y:-50)
             VStack{
-                Text(item.titulo)
+                Text(movie.titulo ?? "")
                     .font(.title)
                     .foregroundColor(.blue)
                     .offset(y:-20)
                 
-                Text(item.descripcion)
+                Text(movie.descripcion ?? "")
                     .multilineTextAlignment(.center)
                     .padding()
                 
-                /*Link(destination: URL(string: maravilla.urlVideo)!, label: {
+                Link(destination: URL(string: movie.url ?? "")!, label: {
                     Label("Video", systemImage: "play.tv.fill")
-                })*/
+                })
                 Spacer()
             }
         }
@@ -43,5 +42,5 @@ struct ItemDetailView: View {
 
 
 #Preview {
-    ItemDetailView(item : ItemModel.defaultItem)
+    MovieDetailView(movie : MovieModel.defaultMovie)
 }
